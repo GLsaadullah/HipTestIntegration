@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="3389aa32-cae0-4c7e-bc37-a8c1775101d8" name="SYSTEM@DESKTOP-5EQ0I56 2017-09-27 08:13:22" runUser="NT AUTHORITY\SYSTEM" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="82ff76a6-56ca-45df-8202-3a6cd0ad053e">
+    <Deployment userDeploymentRoot="C:\Jenkins Workspace\HelloWorld" useDefaultDeploymentRoot="false" runDeploymentRoot="SYSTEM_DESKTOP-5EQ0I56 2017-09-27 08_13_22" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Properties />
+  </TestSettings>
+  <Times creation="2017-09-27T08:13:22.6835757+01:00" queuing="2017-09-27T08:13:23.2478575+01:00" start="2017-09-27T08:13:23.4050153+01:00" finish="2017-09-27T08:13:23.6554696+01:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="UserCanAddTwoNumbers" storage="c:\jenkins workspace\helloworld\gl\gl.tests\bin\debug\gl.tests.dll" id="9aec2485-cb06-b62f-f15f-9ceb0194d513">
+      <Execution timeOut="1800000" id="2eb0aa47-07bc-46e8-8c36-0cb9bbeb90d2" />
+      <TestMethod codeBase="C:/Jenkins Workspace/HelloWorld/GL/GL.Tests/bin/Debug/GL.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GL.Tests.SimpleCalculationsTest, GL.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UserCanAddTwoNumbers" />
+    </UnitTest>
+    <UnitTest name="UserCanMultiplyTwoNumbers" storage="c:\jenkins workspace\helloworld\gl\gl.tests\bin\debug\gl.tests.dll" id="f9956d1a-95a0-66c0-306d-3916ee7e5c9e">
+      <Execution timeOut="1800000" id="5068e9f1-c316-41ae-bfd7-4dba8efb65e8" />
+      <TestMethod codeBase="C:/Jenkins Workspace/HelloWorld/GL/GL.Tests/bin/Debug/GL.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GL.Tests.SimpleCalculationsTest, GL.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UserCanMultiplyTwoNumbers" />
+    </UnitTest>
+    <UnitTest name="UserCanSubtracTwoNumbers" storage="c:\jenkins workspace\helloworld\gl\gl.tests\bin\debug\gl.tests.dll" id="7c9bac5b-0eac-4d7d-e9fb-1f0ca6c236a0">
+      <Execution timeOut="1800000" id="1d94aa65-081a-4a47-83e5-7352b4a274ae" />
+      <TestMethod codeBase="C:/Jenkins Workspace/HelloWorld/GL/GL.Tests/bin/Debug/GL.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GL.Tests.SimpleCalculationsTest, GL.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UserCanSubtracTwoNumbers" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="9aec2485-cb06-b62f-f15f-9ceb0194d513" executionId="2eb0aa47-07bc-46e8-8c36-0cb9bbeb90d2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f9956d1a-95a0-66c0-306d-3916ee7e5c9e" executionId="5068e9f1-c316-41ae-bfd7-4dba8efb65e8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7c9bac5b-0eac-4d7d-e9fb-1f0ca6c236a0" executionId="1d94aa65-081a-4a47-83e5-7352b4a274ae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="2eb0aa47-07bc-46e8-8c36-0cb9bbeb90d2" testId="9aec2485-cb06-b62f-f15f-9ceb0194d513" testName="UserCanAddTwoNumbers" computerName="DESKTOP-5EQ0I56" duration="00:00:00.0036686" startTime="2017-09-27T08:13:23.4863396+01:00" endTime="2017-09-27T08:13:23.4951261+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2eb0aa47-07bc-46e8-8c36-0cb9bbeb90d2">
+    </UnitTestResult>
+    <UnitTestResult executionId="5068e9f1-c316-41ae-bfd7-4dba8efb65e8" testId="f9956d1a-95a0-66c0-306d-3916ee7e5c9e" testName="UserCanMultiplyTwoNumbers" computerName="DESKTOP-5EQ0I56" duration="00:00:00.0008533" startTime="2017-09-27T08:13:23.5954028+01:00" endTime="2017-09-27T08:13:23.5954028+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5068e9f1-c316-41ae-bfd7-4dba8efb65e8">
+    </UnitTestResult>
+    <UnitTestResult executionId="1d94aa65-081a-4a47-83e5-7352b4a274ae" testId="7c9bac5b-0eac-4d7d-e9fb-1f0ca6c236a0" testName="UserCanSubtracTwoNumbers" computerName="DESKTOP-5EQ0I56" duration="00:00:00.0004750" startTime="2017-09-27T08:13:23.6054473+01:00" endTime="2017-09-27T08:13:23.6054473+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1d94aa65-081a-4a47-83e5-7352b4a274ae">
+    </UnitTestResult>
+  </Results>
+</TestRun>
