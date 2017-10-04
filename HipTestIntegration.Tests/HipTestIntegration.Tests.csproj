@@ -97,14 +97,68 @@
   <ItemGroup>
     <Compile Include="Controllers\Actionwords.cs" />
     <Compile Include="Controllers\ProjectTest.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Controllers\HomeControllerTest.cs" />
     <Compile Include="Controllers\ValuesControllerTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.config" />
+    <Content Include="bin\Debug\HipTestIntegration.dll" />
+    <Content Include="bin\Debug\HipTestIntegration.pdb" />
+    <Content Include="bin\Debug\HipTestIntegration.Tests.dll" />
+    <Content Include="bin\Debug\HipTestIntegration.Tests.pdb" />
+    <Content Include="bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll" />
+    <Content Include="bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml" />
+    <Content Include="bin\Debug\Microsoft.Web.Infrastructure.dll" />
+    <Content Include="bin\Debug\Newtonsoft.Json.dll" />
+    <Content Include="bin\Debug\Newtonsoft.Json.xml" />
+    <Content Include="bin\Debug\nunit.framework.dll" />
+    <Content Include="bin\Debug\nunit.framework.xml" />
+    <Content Include="bin\Debug\roslyn\csc.exe" />
+    <Content Include="bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll" />
+    <Content Include="bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll" />
+    <Content Include="bin\Debug\roslyn\Microsoft.CodeAnalysis.dll" />
+    <Content Include="bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll" />
+    <Content Include="bin\Debug\roslyn\System.Collections.Immutable.dll" />
+    <Content Include="bin\Debug\roslyn\System.Reflection.Metadata.dll" />
+    <Content Include="bin\Debug\roslyn\vbc.exe" />
+    <Content Include="bin\Debug\roslyn\VBCSCompiler.exe" />
+    <Content Include="bin\Debug\System.Net.Http.Formatting.dll" />
+    <Content Include="bin\Debug\System.Net.Http.Formatting.xml" />
+    <Content Include="bin\Debug\System.Web.Helpers.dll" />
+    <Content Include="bin\Debug\System.Web.Helpers.xml" />
+    <Content Include="bin\Debug\System.Web.Http.dll" />
+    <Content Include="bin\Debug\System.Web.Http.WebHost.dll" />
+    <Content Include="bin\Debug\System.Web.Http.WebHost.xml" />
+    <Content Include="bin\Debug\System.Web.Http.xml" />
+    <Content Include="bin\Debug\System.Web.Mvc.dll" />
+    <Content Include="bin\Debug\System.Web.Mvc.xml" />
+    <Content Include="bin\Debug\System.Web.Optimization.dll" />
+    <Content Include="bin\Debug\System.Web.Optimization.xml" />
+    <Content Include="bin\Debug\System.Web.Razor.dll" />
+    <Content Include="bin\Debug\System.Web.Razor.xml" />
+    <Content Include="bin\Debug\System.Web.WebPages.Deployment.dll" />
+    <Content Include="bin\Debug\System.Web.WebPages.Deployment.xml" />
+    <Content Include="bin\Debug\System.Web.WebPages.dll" />
+    <Content Include="bin\Debug\System.Web.WebPages.Razor.dll" />
+    <Content Include="bin\Debug\System.Web.WebPages.Razor.xml" />
+    <Content Include="bin\Debug\System.Web.WebPages.xml" />
+    <Content Include="obj\Debug\HipTestIntegration.Tests.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\HipTestIntegration.Tests.dll" />
+    <Content Include="obj\Debug\HipTestIntegration.Tests.pdb" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="bin\Debug\ApplicationInsights.config" />
+    <None Include="bin\Debug\HipTestIntegration.Tests.dll.config" />
+    <None Include="bin\Debug\roslyn\Microsoft.CSharp.Core.targets" />
+    <None Include="bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets" />
+    <None Include="bin\Debug\roslyn\VBCSCompiler.exe.config" />
+    <None Include="obj\Debug\build.force" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\HipTestIntegration.Tests.csprojResolveAssemblyReference.cache" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -112,6 +166,9 @@
       <Project>{8C7BB7C6-77E6-41EB-A16B-E3AAD95C6CE7}</Project>
       <Name>HipTestIntegration</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
