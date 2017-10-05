@@ -1,17 +1,17 @@
-namespace Example {
+//namespace Example {
 
-    public class Actionwords {
+//    public class Actionwords {
 
-        public void IStartTheCoffeeMachine() {
+//        public void IStartTheCoffeeMachine() {
 
-        }
+//        }
 
-        public void ITakeACoffee() {
+//        public void ITakeACoffee() {
 
-        }
+//        }
 
-        public void CoffeeShouldBeServed() {
+//        public void CoffeeShouldBeServed() {
 
-        }
-    }
-}
+//        }
+//    }
+//}
