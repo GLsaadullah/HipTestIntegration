@@ -7,6 +7,7 @@ using System.Web.Http;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using HipTestIntegration;
 using HipTestIntegration.Controllers;
+using OpenQA.Selenium.Chrome;
 
 namespace HipTestIntegration.Tests.Controllers
 {
@@ -21,6 +22,9 @@ namespace HipTestIntegration.Tests.Controllers
 
             // Act
             IEnumerable<string> result = controller.Get();
+
+            var driver = new ChromeDriver();
+            driver.Navigate().GoToUrl("http://www.google.com");
 
             // Assert
             Assert.IsNotNull(result);
